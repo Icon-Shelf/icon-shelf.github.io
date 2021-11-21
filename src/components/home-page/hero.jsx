@@ -4,7 +4,7 @@ import { Button } from "../atoms/button";
 
 const Hero = () => {
   return (
-    <section className="m-auto max-w-screen-xl pb-14">
+    <section className="m-auto max-w-screen-xl pb-14 md:px-6">
       <div className="flex flex-col text-center">
         <div className="order-2 mt-8 md:order-1 md:mt-14">
           <h1 className="text-white m-auto font-medium text-3xl mx-6 md:text-5xl">
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex order-1 px-8 mt-8 rounded-2xl md:order-2">
+        <div className="flex order-1 px-8 mt-8 rounded-2xl md:order-2 md:px-0">
           <StaticImage
             src="../../images/home-page/hero-screenshot.png"
             className="pt-4 m-auto rounded-md shadow-lg object-fill"
