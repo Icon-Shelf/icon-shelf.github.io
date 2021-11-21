@@ -6,8 +6,8 @@ import { MenuAlt3Icon } from "@heroicons/react/outline";
 
 const HeaderNav = () => {
   return (
-    <div>
-      <nav className="px-6 pt-6 m-auto max-w-screen-xl md:pt-12">
+    <nav className="flex-shrink-0">
+      <div className="px-6 pt-6 m-auto max-w-screen-xl md:pt-12">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link to="/">
@@ -27,8 +27,8 @@ const HeaderNav = () => {
             </div>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

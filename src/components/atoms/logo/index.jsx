@@ -7,6 +7,7 @@ const Logo = () => {
       <StaticImage
         src={"../../../../public/static/logo/512x512.png"}
         className="w-10 md:w-14"
+        alt="logo"
       />
       <span className="text-2xl font-medium md:text-3xl">Icon Shelf</span>
     </div>
