@@ -15,6 +15,8 @@ module.exports = {
         primary: "#7230FF",
         "primary-dark": "#4800e3",
         "primary-darker": "#300096",
+        input: "#767F93",
+        mockup: "#6A7183",
 
         "slate-light": "#F9F9F9", // theme: slate, background color
         "slate-orange": "#FF5930", // theme: slate, primary orange
