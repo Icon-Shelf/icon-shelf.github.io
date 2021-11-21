@@ -1,0 +1,20 @@
+{
+  "search.exclude": {
+    ".git": true,
+    ".eslintcache": true,
+    "node_modules": true,
+    "npm-debug.log.*": true,
+    "yarn.lock": true,
+    "*.{css,sass,scss}.d.ts": true
+  },
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false
+}
