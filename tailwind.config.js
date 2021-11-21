@@ -30,19 +30,6 @@ module.exports = {
       boxShadow: {
         slight: "0px 13px 19px 8px #C8DDE53B",
       },
-      fontSize: {
-        "desktop-h1": "48px;",
-        "desktop-h2": "42px",
-        "desktop-subheading": "21px",
-        "desktop-h4": "20px",
-        "desktop-paragraph": "18px",
-        "mobile-h2": "32px",
-        "mobile-h1": "38px",
-        "mobile-h3": "26px",
-      },
-      maxWidth: {
-        default: "1146px",
-      },
       padding: {
         mob: "24px",
       },

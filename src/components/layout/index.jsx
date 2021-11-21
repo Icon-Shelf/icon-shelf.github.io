@@ -5,12 +5,12 @@ import HeaderNav from "./header-nav";
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="h-full w-full">
       <Helmet title={pageTitle} defer={false} />
 
       <HeaderNav />
 
-      <main className="flex-1 h-full w-full">{children}</main>
+      <main className="">{children}</main>
 
       <Footer />
     </div>

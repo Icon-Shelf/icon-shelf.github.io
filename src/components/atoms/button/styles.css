@@ -6,8 +6,13 @@
   @apply px-6 font-medium text-base;
 }
 
+.btn.btn-size-large {
+  @apply px-12 py-4 font-medium text-lg;
+}
+
 .btn-default {
-  @apply text-white hover:text-white hover:bg-gray-800 active:bg-gray-900;
+  background: rgba(255, 255, 255, 0.1);
+  @apply text-white hover:bg-gray-700;
 }
 
 .btn-primary {
