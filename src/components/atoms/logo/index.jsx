@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="flex items-center gap-2">
       <StaticImage
-        src={"../../../../public/static/logo/512x512.png"}
+        src={"../../../images/logo/512x512.png"}
         className="w-10 md:w-14"
         alt="logo"
       />

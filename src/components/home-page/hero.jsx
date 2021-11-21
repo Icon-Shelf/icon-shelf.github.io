@@ -32,7 +32,7 @@ const Hero = () => {
 
         <div className="flex order-1 px-8 mt-8 rounded-2xl md:order-2">
           <StaticImage
-            src="../../../public/static/home-page/hero-screenshot.png"
+            src="../../images/home-page/hero-screenshot.png"
             className="pt-4 m-auto rounded-md shadow-lg object-fill"
             style={{
               border: "1px solid rgba(255, 255, 255, 0.15)",
