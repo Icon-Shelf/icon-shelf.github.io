@@ -13,8 +13,8 @@ module.exports = {
         background: "#0D1118",
         body: "#777F93",
         primary: "#7230FF",
-        "primary-dark": "#4800e3",
-        "primary-darker": "#300096",
+        "primary-dark": "#5917E6",
+        "primary-darker": "#3F00CC",
         input: "#767F93",
         mockup: "#6A7183",
 

@@ -1,17 +1,17 @@
-import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import { Button } from "../atoms/button";
 
 const Hero = () => {
   return (
-    <section className="m-auto max-w-screen-xl pb-12">
+    <section className="m-auto max-w-screen-xl pb-14">
       <div className="flex flex-col text-center">
         <div className="order-2 mt-8 md:order-1 md:mt-14">
-          <h1 className="text-white m-auto font-medium text-3xl mx-6 md:text-4xl">
-            The icon manager every web developer needs
+          <h1 className="text-white m-auto font-medium text-3xl mx-6 md:text-5xl">
+            The icon manager for web developer
           </h1>
 
-          <p className="px-20 mt-4 m-auto text-lg text-body md:mt-2">
+          <p className="px-20 mt-4 m-auto text-lg text-body md:mt-2 font-light">
             All your icons in one place, easily copyable as code.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-5">
