@@ -11,7 +11,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const FeaturesGridList = () => {
   return (
     <section className="mb-14">
-      <div className="max-w-screen-xl pt-8 pb-12 mx-6 lg:m-auto md:px-6">
+      <div className="max-w-screen-xl pt-8 pb-12 mx-6 lg:m-auto md:px-8">
         <div className="w-full md:flex md:justify-center">
           <div className="">
             <h1 className="font-medium leading-snug text-mobile-h2 md:text-desktop-h2 text-white md:text-center md:px-12">
