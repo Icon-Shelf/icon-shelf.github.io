@@ -10,7 +10,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const FeaturesGridList = () => {
   return (
-    <section>
+    <section className="mb-14">
       <div className="max-w-screen-xl pt-8 pb-12 mx-6 lg:m-auto md:px-6">
         <div className="w-full md:flex md:justify-center">
           <div className="">
@@ -30,7 +30,7 @@ const FeaturesGridList = () => {
             <FeatureItem
               className="mt-8 md:mt-0"
               heading="Organize by collections"
-              desc="Create collections for various projects and easily switch bitween them."
+              desc="Create collections for various projects and easily switch between them."
               icon={<BriefcaseIcon className="w-6" />}
             />
             <FeatureItem
