@@ -1,16 +1,8 @@
-import {
-  GatsbyImage,
-  generateImageData,
-  getImage,
-  getImageData,
-  StaticImage,
-} from "gatsby-plugin-image";
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import TestimonyCard from "./TestimonyCard";
 
 const Testimonials = () => {
-  const image = getImage("../../images/home-page/hero-screenshot.png");
-
   return (
     <section className="py-12 md:py-20 mb-28">
       <div className="text-center">

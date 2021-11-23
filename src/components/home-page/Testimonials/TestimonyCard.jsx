@@ -1,4 +1,3 @@
-import { GatsbyImage } from "gatsby-plugin-image";
 import * as React from "react";
 
 const TestimonyCard = ({ children, testimony, designation }) => {

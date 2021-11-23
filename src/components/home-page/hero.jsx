@@ -4,17 +4,18 @@ import { Button } from "../atoms/button";
 
 const Hero = () => {
   return (
-    <section className="m-auto max-w-screen-xl pb-14 md:px-6">
+    <section className="m-auto max-w-screen-xl pb-12 md:px-6 md:pb-20">
       <div className="flex flex-col text-center">
         <div className="order-2 mt-8 md:order-1 md:mt-14">
-          <h1 className="text-white m-auto font-medium text-3xl mx-6 md:text-5xl">
+          <h1 className="text-white m-auto font-medium mx-6 text-mobile-h1 md:text-desktop-h1 md:text-5xl">
             The icon manager for web developer
           </h1>
 
-          <p className="px-20 mt-4 m-auto text-lg text-body md:mt-2 font-light">
+          <p className="mt-4 m-auto text-desktop-subheading text-body md:mt-2 md:px-20">
             All your icons in one place, easily copyable as code.
           </p>
-          <div className="mt-6 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-5">
+
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-5">
             <Button type="primary" size="large" className="w-64">
               Download its free!
             </Button>
@@ -30,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex order-1 px-8 mt-8 rounded-2xl md:order-2 md:px-0">
+        <div className="flex order-1 px-8 mt-12 rounded-2xl md:order-2 md:px-0">
           <StaticImage
             src="../../images/home-page/hero-screenshot.png"
             className="pt-4 m-auto rounded-md shadow-lg object-fill"
