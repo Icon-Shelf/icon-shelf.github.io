@@ -18,7 +18,7 @@ const FeaturesCardBlocks = () => {
         </h2>
 
         <div className="mt-6">
-          <div className="md:flex">
+          <div className="flex flex-col md:flex-row">
             <FeatureBlock
               img={<HandIcon className="w-6" />}
               heading={"1. Drag andDrop"}

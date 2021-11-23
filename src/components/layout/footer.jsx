@@ -6,11 +6,11 @@ const Footer = () => {
     <footer className="flex flex-col h-16 w-full px-6 pb-6 m-auto max-w-screen-xl">
       <div className="flex flex-col gap-2 items-start md:flex-row md:items-center md:gap-3">
         <Logo />
-        <div className="text-body">
+        <div className="text-body md:mt-1 font-extralight">
           A project by{" "}
           <a
             href="https://twitter.com/Robie577"
-            className="font-semibold"
+            className="font-normal hover:text-blue-500"
             target="_blank"
             rel="noreferrer"
           >

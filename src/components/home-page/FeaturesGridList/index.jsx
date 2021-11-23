@@ -10,15 +10,15 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const FeaturesGridList = () => {
   return (
-    <section className="mb-14">
-      <div className="max-w-screen-xl pt-8 pb-12 mx-6 lg:m-auto md:px-8">
+    <section className="py-12 md:py-20">
+      <div className="max-w-screen-xl mx-6 lg:m-auto md:px-8">
         <div className="w-full md:flex md:justify-center">
           <div className="">
-            <h1 className="font-medium leading-snug text-mobile-h2 md:text-desktop-h2 text-white md:text-center md:px-12">
+            <h1 className="font-medium leading-snug text-mobile-h2 md:text-desktop-h2 text-white text-center md:px-12">
               Connect to your web project’s assets folder and see the magic
               happen.
             </h1>
-            <p className="mt-6 font-light text-desktop-subheading text-body md:mt-3 md:text-center">
+            <p className="mt-6 font-light text-desktop-subheading text-body text-center md:mt-3">
               Icon Shelf does not add any extra files to the connected assets
               folder.
             </p>
@@ -26,7 +26,7 @@ const FeaturesGridList = () => {
         </div>
 
         <div className="items-center justify-center mt-0 md:flex md:mt-14">
-          <div className="flex flex-wrap items-center md:w-2/3">
+          <div className="flex flex-wrap items-center justify-center md:w-2/3">
             <FeatureItem
               className="mt-8 md:mt-0"
               heading="Organize by collections"
