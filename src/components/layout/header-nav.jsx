@@ -16,11 +16,11 @@ const HeaderNav = () => {
           </div>
 
           <div className="relative">
-            <div className="hidden gap-4 md:flex">
+            <Link className="hidden gap-4 md:flex" to="/download">
               <Button type="primary" size="small">
                 Download
               </Button>
-            </div>
+            </Link>
 
             <div className="visible md:hidden">
               <Button icon={<MenuAlt3Icon className="w-6" />} />

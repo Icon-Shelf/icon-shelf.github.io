@@ -1,6 +1,7 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Button } from "../atoms/button";
+import { Link } from "gatsby";
 
 const Hero = () => {
   return (
@@ -16,9 +17,12 @@ const Hero = () => {
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-5">
-            <Button type="primary" size="large" className="w-64">
-              Download its free!
-            </Button>
+            <Link to="/download">
+              <Button type="primary" size="large" className="w-64">
+                Download its free!
+              </Button>
+            </Link>
+
             <a
               href="https://github.com/MrRobz/icon-shelf"
               target="_blank"
