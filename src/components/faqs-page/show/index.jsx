@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 const FaqShowPage = ({ data }) => {
   return (
     <section className="py-12 md:py-20 m-auto max-w-screen-lg px-6 md:mx-auto mb-24">
-      <div className="text-white m-auto text-center flex items-center">
+      <div className="text-white m-auto text-center flex items-start">
         <Link to={"/faqs"}>
           <ChevronLeftIcon className="w-10" />
         </Link>
