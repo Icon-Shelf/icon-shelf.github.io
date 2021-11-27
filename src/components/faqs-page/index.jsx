@@ -8,7 +8,7 @@ const FaqsPage = ({ data }) => {
         FAQs
       </h1>
       <p className="mt-4 m-auto text-desktop-subheading text-body text-center md:mt-2 md:px-20">
-        Answers to most frequent questions.
+        Answers to most frequently asked questions.
       </p>
 
       <div className="mt-10 flex flex-col gap-5">
