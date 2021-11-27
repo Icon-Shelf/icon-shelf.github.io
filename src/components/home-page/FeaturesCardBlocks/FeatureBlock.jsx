@@ -3,7 +3,7 @@ import * as React from "react";
 export const FeatureBlock = ({ img, heading, description, comingSoon }) => (
   <div className="relative flex ml-6 mr-6 md:ml-0 md:w-1/3 mt-8 md:mr-8">
     {comingSoon && (
-      <div class="absolute rounded-full py-3 px-6 bg-primary text-xs transform origin-bottom -rotate-45 mt-7">
+      <div className="absolute rounded-full py-3 px-6 bg-primary text-xs transform origin-bottom -rotate-45 mt-7">
         COMING SOON
       </div>
     )}

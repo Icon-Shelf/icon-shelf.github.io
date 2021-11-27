@@ -32,6 +32,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `faqs`,
+        path: `${__dirname}/faqs`,
+      },
+    },
     "gatsby-plugin-root-import",
   ],
 };
