@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "icon-shelf-website",
+    siteUrl: "https://icon-shelf.github.io",
+    title: "Icon Shelf",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -32,6 +32,6 @@ module.exports = {
       },
       __key: "pages",
     },
-    "gatsby-plugin-root-import"
+    "gatsby-plugin-root-import",
   ],
 };
