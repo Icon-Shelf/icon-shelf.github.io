@@ -15,8 +15,15 @@ const HeaderNav = () => {
             </Link>
           </div>
 
-          <div className="relative">
-            <Link className="hidden gap-4 md:flex" to="/download">
+          <div className="relative flex items-center gap-10">
+            <Link
+              className="hidden font-medium text-lg hover:text-blue-500 md:flex"
+              to="/faqs"
+            >
+              FAQ
+            </Link>
+
+            <Link className="hidden md:flex" to="/download">
               <Button type="primary" size="small">
                 Download
               </Button>
