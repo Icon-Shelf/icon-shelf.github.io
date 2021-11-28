@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/outline";
 import { Button } from "../../atoms/button";
 import ArrowRight from "@heroicons/react/solid/ArrowRightIcon";
+import { Link } from "gatsby";
 
 const FeaturesStacked = () => {
   return (
@@ -31,30 +32,30 @@ const FeaturesStacked = () => {
                   Copy icons as React, Vue, Ember etc code.
                 </h2>
 
-                <div className="flex flex-col justify-between mt-12">
+                <div className="flex flex-col justify-between my-12">
                   <FeatureItem
                     className=""
                     desc="Copy to clipboard as import statements for popular frameworks."
                     icon={<ClipboardIcon className="w-6" />}
                   />
                   <FeatureItem
-                    className="mt-8 md:mt-6"
+                    className="mt-8 md:mt-6 lg:mt-7"
                     desc="Fully customize “copy to clipboard” text for your project."
                     icon={<ClipboardCopyIcon className="w-6" />}
                   />
                   <FeatureItem
-                    className="mt-8 md:mt-6"
+                    className="mt-8 md:mt-6 lg:mt-7"
                     desc="Handy shortcuts for the actions you do most."
                     icon={<TemplateIcon className="w-6" />}
                   />
                 </div>
 
-                <div className="mt-14">
+                <Link className="mt-14" to="/faqs/customize-copy-action">
                   <Button type="primary" size="large" className="w-full gap-2">
                     Learn more
                     <ArrowRight className="w-5" />
                   </Button>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

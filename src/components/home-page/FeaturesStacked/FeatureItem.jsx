@@ -7,9 +7,9 @@ const FeatureItem = ({ className, icon, desc }) => {
         {icon}
       </div>
 
-      <p className="ml-4 text-base text-body font-normal max-w-sm md:max-w-none md:text-desktop-paragraph">
+      <div className="ml-4 text-base text-body font-normal max-w-sm md:max-w-none md:text-desktop-paragraph">
         {desc}
-      </p>
+      </div>
     </div>
   );
 };

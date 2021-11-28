@@ -7,6 +7,7 @@ import {
   ShareIcon,
 } from "@heroicons/react/outline";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const FeaturesGridList = () => {
   return (
@@ -49,7 +50,13 @@ const FeaturesGridList = () => {
             <FeatureItem
               className="mt-8 md:mt-16"
               heading="Sync icons with team"
-              desc="Connect you collections folder with Github, Dropbox... and collaborate with your team. Learn more."
+              desc={
+                <>
+                  Connect you collections folder with Github, Dropbox... and
+                  collaborate with your team.{" "}
+                  <Link to="/faqs/sync-icons">Learn more.</Link>
+                </>
+              }
               icon={<ShareIcon className="w-6" />}
             />
           </div>
