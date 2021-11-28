@@ -4,7 +4,6 @@ import Layout from "../../components/layout";
 import FaqShowPage from "../../components/faqs-page/show";
 
 const FAQPost = ({ data }) => {
-  console.log(data);
   return (
     <Layout pageTitle={`Icon Shelf | ${data.mdx.frontmatter.title}`}>
       <FaqShowPage data={data.mdx} />

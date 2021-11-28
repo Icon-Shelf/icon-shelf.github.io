@@ -3,7 +3,7 @@ title: "How to customize the copy action?"
 listIndex: 3
 ---
 
-Icon Shelf gives you a variety of options to copy icons to code.
+Icon Shelf gives you a variety of options to copy icon to code.
 
 ![icon context menu](./images/actions-context-menu.png)
 
@@ -16,9 +16,13 @@ And we wan't our icon code import statements to be something like this:
 import { ReactComponent as DragHandleIcon } from "assets/drag-handle.svg";
 ```
 
+<div class="pb-8"></div>
+
 Start by going to the collections options menu and click on **"Customize action"** menu item.
 
 ![](./images/collection-action-menu.png)
+
+<div class="pb-8"></div>
 
 You will see a bunch of actions present. Let's focus on "Copy as React".
 Click on the edit icon beside "Copy as React".
@@ -31,7 +35,11 @@ In the template editor, paste the following code:
 import { ReactComponent as <%=  _.upperFirst(_.camelCase(iconName)) %>Icon } from 'assets/${iconRelativeFilePath}';
 ```
 
+<div class="mb-4"></div>
+
 ![template editor](./images/templte-editor.png)
+
+<div class="pb-8"></div>
 
 Go back and click "Done and save".
 

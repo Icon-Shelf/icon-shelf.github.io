@@ -50,7 +50,11 @@ li > ul {
 }
 
 code {
-  @apply bg-mockup p-1;
+  @apply bg-gray-800 p-2 leading-8;
+}
+
+pre {
+  @apply overflow-auto;
 }
 
 blockquote {
