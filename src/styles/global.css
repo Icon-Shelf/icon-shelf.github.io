@@ -8,3 +8,135 @@ body,
 #gatsby-focus-wrapper {
   @apply h-full w-full bg-background font-dm-sans text-white overflow-hidden antialiased;
 }
+
+.gatsby-resp-image-image {
+  box-shadow: none !important;
+}
+
+hr {
+  @apply bg-mockup border-0;
+  height: 1px;
+}
+
+/* Prose */
+
+p {
+  @apply leading-relaxed mb-8;
+}
+
+ul {
+  @apply mb-8 list-disc list-inside;
+}
+
+ol {
+  @apply mb-8 list-decimal list-inside;
+}
+
+ul li,
+ol li {
+  @apply mb-2;
+}
+
+li > p {
+  @apply mb-2;
+}
+
+li *:last-child {
+  @apply mb-0;
+}
+
+li > ul {
+  @apply ml-6 mt-2;
+}
+
+code {
+  @apply bg-mockup p-1;
+}
+
+blockquote {
+  @apply italic -ml-6 mr-8 mb-8 pl-6 border-l border-primary text-2xl;
+}
+
+blockquote > :last-child {
+  @apply mb-0;
+}
+
+table {
+  width: 100%;
+  margin-bottom: var(--spacing-8);
+  border-collapse: collapse;
+  border-spacing: 0.25rem;
+}
+
+table thead tr th {
+  @apply border-l border-primary;
+}
+
+/* Media queries */
+
+@media (max-width: 42rem) {
+  blockquote {
+    padding: 4px;
+  }
+  ul,
+  ol {
+    list-style-position: inside;
+  }
+}
+
+/* Heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply leading-5 tracking-tight;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply font-black text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
+}
+
+h1 > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+  text-decoration: none;
+  color: inherit;
+}

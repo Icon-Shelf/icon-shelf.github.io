@@ -15,8 +15,8 @@ const FaqShowPage = ({ data }) => {
         </h2>
       </div>
 
-      <div className="mt-10 p-6 bg-mockup-b rounded-2xl">
-        <div className="text-body">
+      <div className="mt-10 p-6 rounded-2xl">
+        <div className="text-white text-lg faq-wrapper">
           <MDXRenderer>{data.body}</MDXRenderer>
         </div>
       </div>
