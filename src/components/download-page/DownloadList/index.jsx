@@ -25,18 +25,18 @@ const DownloadList = () => {
       const versionName = tagName.substring(1);
 
       setMacURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon.Shelf-${versionName}.pkg`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}.pkg`
       );
       setMacSiliconURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon.Shelf-${versionName}-arm64.pkg`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}-arm64.pkg`
       );
 
       setWinURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon.Shelf.Setup.${versionName}.exe`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-Setup.${versionName}.exe`
       );
 
       setLinuxURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon.Shelf-${versionName}.AppImage`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}.AppImage`
       );
     })();
   }, []);
