@@ -32,7 +32,7 @@ const DownloadList = () => {
       );
 
       setWinURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-Setup.${versionName}.exe`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-Setup-${versionName}.exe`
       );
 
       setLinuxURL(
