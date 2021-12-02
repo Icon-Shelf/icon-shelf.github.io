@@ -7,9 +7,13 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "123",
+        trackingIds: ["G-V0JW386QPM"],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: false,
+        },
       },
     },
     "gatsby-plugin-sharp",
