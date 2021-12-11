@@ -18,24 +18,22 @@ const Testimonials = () => {
         <section className="mt-8 mx-6 md:mt-14">
           <div className="items-center justify-center max-w-xl m-auto md:max-w-3xl lg:flex space-y-4 lg:space-y-0 lg:space-x-6">
             <TestimonyCard
-              testimony="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, elit, a
-                volutpat enim, massa id. Vestibulum faucibus."
-              designation="John Doe, Company-X"
+              testimony="Love it. This helps speed-up my web development flow."
+              designation="Abhilash L R, Frontend architect"
             >
               <StaticImage
-                src="../../../images/home-page/profile-1.png"
-                className="w-16 h-16"
+                src="../../../images/home-page/abhilash-profile.jpeg"
+                className="w-16 h-16 rounded-full"
               />
             </TestimonyCard>
 
             <TestimonyCard
-              testimony="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, elit, a
-                volutpat enim, massa id. Vestibulum faucibus."
-              designation="John Doe, Company-X"
+              testimony="Nice tool, I was searching this kind of tool since many years :)"
+              designation="Lamenace, User Experience Designer"
             >
               <StaticImage
-                src="../../../images/home-page/profile-2.png"
-                className="w-16 h-16"
+                src="../../../images/home-page/lamenace-profile.jpeg"
+                className="w-16 h-16 rounded-full"
               />
             </TestimonyCard>
           </div>

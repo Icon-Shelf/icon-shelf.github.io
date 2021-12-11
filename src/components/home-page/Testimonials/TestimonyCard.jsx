@@ -14,9 +14,11 @@ const TestimonyCard = ({ children, testimony, designation }) => {
           </div>
         </div>
 
-        <p className="mt-6 text-gray-200 text-desktop-paragraph">{testimony}</p>
+        <div className="mt-6 text-gray-200 text-desktop-paragraph">
+          {testimony}
+        </div>
 
-        <p className="mt-6 text-sm opacity-50 text-body">{designation}</p>
+        <div className="mt-6 text-base opacity-50 text-body">{designation}</div>
       </div>
     </div>
   );
