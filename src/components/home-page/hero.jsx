@@ -12,7 +12,7 @@ const Hero = () => {
             The icon manager for web developer
           </h1>
 
-          <p className="mt-4 m-auto text-desktop-subheading text-body md:mt-2 md:px-20">
+          <p className="mt-4 px-20 m-auto text-desktop-subheading text-body md:mt-2">
             All your icons in one place, easily copyable as code.
           </p>
 
