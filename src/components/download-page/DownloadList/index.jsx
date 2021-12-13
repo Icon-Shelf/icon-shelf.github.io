@@ -25,10 +25,10 @@ const DownloadList = () => {
       const versionName = tagName.substring(1);
 
       setMacURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}.pkg`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}.dmg`
       );
       setMacSiliconURL(
-        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}-arm64.pkg`
+        `https://github.com/Icon-Shelf/icon-shelf/releases/download/${tagName}/Icon-Shelf-${versionName}-arm64.dmg`
       );
 
       setWinURL(
