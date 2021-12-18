@@ -9,7 +9,41 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className="h-full w-full overflow-auto" {...ulScrollRestoration}>
-      <Helmet title={pageTitle} defer={false} />
+      <Helmet title={pageTitle} defer={false}>
+        {/*  Primary Meta Tags  */}
+        <title>The icon manager for web developer</title>
+        <meta name="title" content="The icon manager for web developer" />
+        <meta
+          name="description"
+          content="All your icons in one place, easily copyable as code."
+        />
+
+        {/* Open Graph / Facebook  */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://icon-shelf.github.io/" />
+        <meta
+          property="og:title"
+          content="The icon manager for web developer"
+        />
+        <meta
+          property="og:description"
+          content="All your icons in one place, easily copyable as code."
+        />
+        <meta property="og:image" content="/meta-preview-hero-image.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://icon-shelf.github.io/" />
+        <meta
+          property="twitter:title"
+          content="The icon manager for web developer"
+        />
+        <meta
+          property="twitter:description"
+          content="All your icons in one place, easily copyable as code."
+        />
+        <meta property="twitter:image" content="/meta-preview-hero-image.png" />
+      </Helmet>
 
       <HeaderNav />
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://icon-shelf.github.io",
-    title: "Icon Shelf",
+    title: "The icon manager for web developers",
   },
   plugins: [
     "gatsby-plugin-postcss",

@@ -24,6 +24,7 @@ const Testimonials = () => {
               <StaticImage
                 src="../../../images/home-page/abhilash-profile.jpeg"
                 className="w-16 h-16 rounded-full"
+                alt=""
               />
             </TestimonyCard>
 
@@ -34,6 +35,7 @@ const Testimonials = () => {
               <StaticImage
                 src="../../../images/home-page/lamenace-profile.jpeg"
                 className="w-16 h-16 rounded-full"
+                alt=""
               />
             </TestimonyCard>
           </div>
