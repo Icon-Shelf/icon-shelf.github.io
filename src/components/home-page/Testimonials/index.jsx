@@ -11,7 +11,7 @@ const Testimonials = () => {
             We Love Our Users
           </h5>
           <h2 className="font-medium text-mobile-h2 md:text-desktop-h2 mt-4 md:mt-5">
-            And they seem to love us
+            and they love us
           </h2>
         </section>
 
