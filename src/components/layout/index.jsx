@@ -9,7 +9,13 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className="h-full w-full overflow-auto" {...ulScrollRestoration}>
-      <Helmet title={pageTitle} defer={false}>
+      <Helmet
+        title={pageTitle}
+        defer={false}
+        htmlAttributes={{
+          lang: "en",
+        }}
+      >
         {/*  Primary Meta Tags  */}
         <title>The icon manager for web developer</title>
         <meta name="title" content="The icon manager for web developer" />

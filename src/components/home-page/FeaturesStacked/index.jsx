@@ -52,7 +52,7 @@ const FeaturesStacked = () => {
 
                 <Link className="mt-14" to="/faqs/customize-copy-action">
                   <Button type="primary" size="large" className="w-full gap-2">
-                    Learn more
+                    How to customize copy action
                     <ArrowRight className="w-5" />
                   </Button>
                 </Link>
