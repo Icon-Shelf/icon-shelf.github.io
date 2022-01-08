@@ -49,6 +49,10 @@ const Layout = ({ pageTitle, children }) => {
           content="All your icons in one place, easily copyable as code."
         />
         <meta property="twitter:image" content="/meta-preview-hero-image.png" />
+        <meta
+          name="google-site-verification"
+          content="3l7I9UyER8EMUiaStECiPx4w6OyFzi_R99F31XqsckE"
+        />
       </Helmet>
 
       <HeaderNav />
