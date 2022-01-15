@@ -23,6 +23,15 @@ const HeaderNav = () => {
               FAQ
             </Link>
 
+            <a
+              className="hidden font-medium text-lg hover:text-blue-500 md:flex"
+              href="https://icon-shelf.frill.co/announcements"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Updates
+            </a>
+
             <Link className="hidden md:flex" to="/download">
               <Button type="primary" size="small">
                 Download

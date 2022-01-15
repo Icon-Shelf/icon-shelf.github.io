@@ -25,7 +25,6 @@ const FeaturesCardBlocks = () => {
               description={
                 "Easily drag icons from Iconset to your design tool."
               }
-              comingSoon={true}
             />
             <FeatureBlock
               img={<BeakerIcon className="w-6" />}
