@@ -21,7 +21,7 @@ const Layout = ({ pageTitle, children }) => {
         <meta name="title" content="The icon manager for web developer" />
         <meta
           name="description"
-          content="All your icons in one place, easily copyable as code."
+          content="Icons to go"
         />
 
         {/* Open Graph / Facebook  */}
