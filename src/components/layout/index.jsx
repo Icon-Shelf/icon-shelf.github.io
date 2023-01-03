@@ -17,8 +17,8 @@ const Layout = ({ pageTitle, children }) => {
         }}
       >
         {/*  Primary Meta Tags  */}
-        <title>The icon manager for web developer</title>
-        <meta name="title" content="The icon manager for web developer" />
+        <title>The best icon manager for web developer</title>
+        <meta name="title" content="The best icon manager for web developer" />
         <meta
           name="description"
           content="All your icons in one place, easily copyable as code."
