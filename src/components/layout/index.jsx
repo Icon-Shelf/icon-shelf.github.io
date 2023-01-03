@@ -17,7 +17,7 @@ const Layout = ({ pageTitle, children }) => {
         }}
       >
         {/*  Primary Meta Tags  */}
-        <title>The icon manager for web developer</title>
+        <title>One of a kind manager for web developer</title>
         <meta name="title" content="The icon manager for web developer" />
         <meta
           name="description"
