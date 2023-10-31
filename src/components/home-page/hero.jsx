@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-col text-center">
         <div className="order-2 mt-8 md:order-1 md:mt-14">
           <h1 className="text-white m-auto font-medium mx-6 text-mobile-h1 md:text-desktop-h1 md:text-5xl">
-            The icon manager for web developer
+            The icon manager for web developers
           </h1>
 
           <p className="mt-4 px-20 m-auto text-desktop-subheading text-body md:mt-2">
@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="mt-8 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-5">
             <Link to="/download">
               <Button type="primary" size="large" className="w-64">
-                Download its free!
+                Download, it's free!
               </Button>
             </Link>
 
