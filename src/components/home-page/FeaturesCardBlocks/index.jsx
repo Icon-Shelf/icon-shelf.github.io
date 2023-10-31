@@ -37,7 +37,7 @@ const FeaturesCardBlocks = () => {
               img={<CodeIcon className="w-6" />}
               heading={"3. Customizable copy"}
               description={
-                "Get the icon embed code for React, Vue,  Svelte and Ember."
+                "Get the icon embed code for React, Vue, Svelte and Ember."
               }
             />
           </div>

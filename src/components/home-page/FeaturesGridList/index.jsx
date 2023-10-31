@@ -43,7 +43,7 @@ const FeaturesGridList = () => {
             <FeatureItem
               className="mt-8 md:mt-16"
               heading="Searchable icons"
-              desc="Can’t find an icon file, just use the search bar in Icon Shelf.
+              desc="Can’t find an icon file? Just use the search bar in Icon Shelf.
               Use cmd/ctrl+f to quickly focus on search bar."
               icon={<SearchIcon className="w-6" />}
             />
@@ -52,7 +52,7 @@ const FeaturesGridList = () => {
               heading="Sync icons with team"
               desc={
                 <>
-                  Connect you collections folder with Github, Dropbox... and
+                  Connect your collections folder with Github, Dropbox... and
                   collaborate with your team.{" "}
                   <Link to="/faqs/sync-icons">Learn more.</Link>
                 </>
